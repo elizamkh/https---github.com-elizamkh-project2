@@ -1,0 +1,11 @@
+.title {
+    color: red;
+}
+
+.hero {
+    height: 800px;
+    background: url(hero.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
