@@ -1,11 +1,58 @@
-.title {
-    color: red;
-}
+* {font-family: Nunito Sans;}
 
-.hero {
+
+.big-title {
+    font-family: Nunito Sans;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 50%;}
+
+#hero {
     height: 800px;
     background: url(hero.jpg);
     background-position: center top;
-    background-size: cover;
-}
+    background-size: cover;}
+
+#in-conteiner {max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;}
+
+#header {height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+    #logo {height: 100px;
+    width: 100px;
+    object-fit: contain;}
+
+.nav {display: flex;
+        align-items: center;
+        padding: 0 10px;
+        font-family: Nunito Sans;}
+
+.phone {display: flex;
+    align-items: center;}
+    
+p {font-family: Nunito Sans;}
+
+.phone-icon {width: 20px;
+    height: 20px;
+    margin-right: 10px;}
+
+.text-under-title {font-size: 20px;
+    margin-bottom: 50px;
+    max-width: 40%;
+    color: #57534E;
+    font-weight: 300;
+    line-height: 22px;}
+
+.button-sign-up {    border: none;
+    padding: 16px 32px;
+    background-color: #F97316;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 1px 1px 4px #D6D3D1;}
 
