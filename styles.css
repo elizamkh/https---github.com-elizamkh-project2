@@ -15,9 +15,11 @@
     background-position: center top;
     background-size: cover;}
 
-#in-conteiner {max-width: 1024px;
+.in-conteiner {max-width: 1024px;
     width: 100%;
-    margin: 0 auto;}
+    margin: 0 auto;
+
+}
 
 #header {height: 120px;
     display: flex;
@@ -54,5 +56,105 @@ p {font-family: Nunito Sans;}
     color: white;
     border-radius: 8px;
     font-size: 20px;
+    box-shadow: 1px 1px 4px #D6D3D1;
+    cursor:pointer;}
+
+.title-advantages {font-family: Nunito Sans;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.advantages {margin: 0 auto;
+    padding: 100px 0 70px;}
+
+.conteiner-for-blocks {display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;}
+
+.advantage {flex-grow: 1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #F5F5F4;
+    width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.icon-adv {width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #F97316;
+    padding: 10px;
+    border-radius: 8px;
     box-shadow: 1px 1px 4px #D6D3D1;}
 
+.title-adv {font-size: 18px;
+    margin-top: 10px;}
+
+.content-adv {font-size: 16px;
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #57534E;}
+
+.group-people {display: flex;
+    margin-top: 50px;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto
+}
+
+.title-group-people {    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+font-family: Nunito Sans;
+justify-content: space-between;}
+
+.content-group-people {margin-top: 20px;
+    line-height: 20px;
+    color: #44403C;}
+
+.people-img {    width: 500px;
+    margin-left: 20px;}
+
+.general-conteiner{
+    background-color: #FFEDD5;
+    margin: 0 auto;
+    padding: 100px 0 70px;
+}
+
+.form-title {font-family: Nunito Sans;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;}
+
+.form-text {    color: #57534E;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;}
+
+.forms {margin: 70px auto;
+    display: flex;
+    justify-content: center;}
+
+.form {height: 50px;
+    border: 1px solid #D6D3D1;
+    border-radius: 8px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-right: 10px;}
+
+.submit {    border: none;
+    padding: 16px 32px;
+    background-color: #F97316;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 1px 1px 4px #D6D3D1;}
